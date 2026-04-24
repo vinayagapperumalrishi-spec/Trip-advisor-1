@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripadvisor</title>
+    <link rel="icon" type="image/png" href="Images/Icon.png">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="nav__container">
+            <div class="nav__container__logo">
+                <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                    alt="Tripadvisor Logo">
+            </div>
+
+            <div class="nav__container__center">
+                <button class="plan__ai__btn">
+                    <i class="fa-solid fa-sparkles"></i> Plan with AI
+                </button>
+                <nav class="nav__container__center__links">
+                    <div class="link">Discover</div>
+                    <div class="link">Review</div>
+                    <div class="link">About</div>
+                    <div class="link">More</div>
+                </nav>
+            </div>
+
+            <div class="nav__container__right">
+                <button class="nav__container__currency__btn">
+                    <i class="fa-solid fa-globe"></i> INR
+                </button>
+                <button class="sign__in__btn">Sign in</button>
+            </div>
+
+            <button class="nav__hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <h1 class="hero-title">Where to?</h1>
+
+            <div class="search-tabs">
+                <button class="tab active">
+                    <i class="fa-solid fa-house"></i> Search All
+                </button>
+                <button class="tab">
+                    <i class="fa-solid fa-bed"></i> Hotels
+                </button>
+                <button class="tab">
+                    <i class="fa-solid fa-camera"></i> Things to Do
+                </button>
+                <button class="tab">
+                    <i class="fa-solid fa-utensils"></i> Restaurants
+                </button>
+            </div>
+
+            <div class="search-bar">
+                <div class="search-input-wrapper">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" placeholder="Places to go, things to do, hotels...">
+                </div>
+                <button class="search-submit">Search</button>
+            </div>
+        </section>
+
+        <!-- Center Section -->
+        <section class="Center__section">
+            <div class="Center__container">
+                <div class="Center__container__image">
+                    <img src="images 1/Tourism-Industry.webp" alt="Center-image">
+                </div>
+                <div class="Center__container__content">
+                    <h2>Find things to do for everything you're into</h2>
+                    <p>Browse 400,000+ experiences and book with us.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories-section">
+            <h2 class="categories-title">Find things to do by interest</h2>
+            <p class="categories-subtitle">Whatever you're into, we've got it</p>
+
+            <div class="categories-grid">
+                <div class="category-card">
+                    <img src="images 1/outers.webp"
+                        alt="Outdoors category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Outdoors</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/food.webp"
+                        alt="Food category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Food</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/natural3.avif"
+                        alt="Natural category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Natural</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/seasons4.avif"
+                        alt="Seasons category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Seasons</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/enjoyment2.avif"
+                        alt="Enjoyment category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Enjoyment</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/lifestyle1.avif"
+                        alt="Life Style category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Life Style</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/culture.avif"
+                        alt="Culture category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Culture</div>
+                </div>
+                <div class="category-card">
+                    <img src="images 1/water.avif"
+                        alt="Water category">
+                    <div class="card-overlay"></div>
+                    <div class="card-title">Water</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiences Section -->
+        <section class="experiences-section">
+            <h2 class="categories-title">Adventures of a Lifetime</h2>
+            <p class="categories-subtitle">Life feels complete when you chase exciting experiences</p>
+
+            <div class="carousel-container">
+                <div class="categories-grid">
+                    <div class="experience-card">
+                        <div class="experience-card__image-container">
+                            <img src="images 1/ad1.webp"
+                                class="experience-card__img" alt="Skydiving">
+                            <div class="experience-card__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="experience-card__title">Adventurous People Making Ascent to high Mountain Walking on Glacier</div>
+                        <div class="experience-card__rating">
+                            5.0
+                            <div class="experience-card__rating-dots">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="experience-card__reviews">(1,245)</div>
+                        </div>
+                        <div class="experience-card__price">from <b>₹20,999</b> per adult</div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-card__image-container">
+                            <img src="images 1/ad2.avif"
+                                class="experience-card__img" alt="ParaGliding">
+                            <div class="experience-card__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="experience-card__title">Riverside Kayaking Adventure</div>
+                        <div class="experience-card__rating">
+                            4.9
+                            <div class="experience-card__rating-dots">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                            </div>
+                            <div class="experience-card__reviews">(892)</div>
+                        </div>
+                        <div class="experience-card__price">from <b>₹10,450</b> per adult</div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-card__image-container">
+                            <img src="images 1/ad4.avif"
+                                class="experience-card__img" alt="Surfing">
+                            <div class="experience-card__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="experience-card__title">A person in a scuba diving in the ocean</div>
+                        <div class="experience-card__rating">
+                            4.8
+                            <div class="experience-card__rating-dots">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                            </div>
+                            <div class="experience-card__reviews">(930)</div>
+                        </div>
+                        <div class="experience-card__price">from <b>₹19,200</b> per adult</div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-card__image-container">
+                            <img src="images 1/ad4.webp"
+                                class="experience-card__img" alt="Helicopter Tour">
+                            <div class="experience-card__heart">
+                                <i class="fa-regular fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="experience-card__title">Tourist Riding Camel in Desert</div>
+                        <div class="experience-card__rating">
+                            4.7
+                            <div class="experience-card__rating-dots">
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle"></i>
+                                <i class="fa-solid fa-circle-half-stroke"></i>
+                            </div>
+                            <div class="experience-card__reviews">(10,102)</div>
+                        </div>
+                        <div class="experience-card__price">from <b>₹7,999</b> per adult</div>
+                    </div>
+                </div>
+                
+               
+        <!--Iconic Places Section-->
+            
+        <section class="iconic-places-section">
+            <h2 class="categories-title">Iconic places you need to see</h2>
+
+            <div class="carousel-container">
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="images 1/i1.avif"
+                            alt="boathouse in Alleppey">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Thailand</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images 1/i2.avif"
+                            alt="mumbai">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Vietnam</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images 1/i3.avif"
+                            alt="Thanjavur">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Singapore</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images 1/i4.webp"
+                            alt="Agra">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Indonesia</div>
+                    </div>
+                </div>
+                
+
+    
+
+
+        <!-- Beautiful Places Section -->
+        <section class="iconic-places-section">
+            <h2 class="categories-title">Beautiful places you need to see in India</h2>
+
+            <div class="carousel-container">
+                <div class="categories-grid">
+                    <div class="category-card">
+                        <img src="images 1/rishi1.webp"
+                            alt="boathouse in Alleppey">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Kerela</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images 1/change.avif"
+                            alt="mumbai">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Mumbai</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images 1/rishi3.jpg"
+                            alt="Thanjavur">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Thanjavur</div>
+                    </div>
+                    <div class="category-card">
+                        <img src="images 1/rishi4.webp"
+                            alt="Agra">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Agra</div>
+                    </div>
+                     <div class="category-card">
+                        <img src="images 1/manali4.avif"
+                            alt="Manali">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Manali</div>
+                    </div>
+                     <div class="category-card">
+                        <img src="images 1/photo-1655275599390-c0936ca9f581.avif"
+                            alt="Coimbatore">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Coimbatore</div>
+                    </div>
+                     <div class="category-card">
+                        <img src="images 1/mus 2.avif"
+                            alt="Museum">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Museum</div>
+                    </div>
+                     <div class="category-card">
+                        <img src="images 1/oo3.avif"
+                            alt="Ooty">
+                        <div class="card-overlay"></div>
+                        <div class="card-title">Ooty</div>
+                    </div>
+                </div>
+                <!-- Next button -->
+                <button class="carousel-next-btn">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Awards Section -->
+    <section class="awards-section">
+        <div class="awards__container">
+            <div class="awards__content">
+                <div class="awards__badge">
+                    <i class="fa-brands fa-tripadvisor owl-icon"></i>
+                    <div class="badge-year">2026</div>
+                </div>
+                <h2 class="awards__title">Travellers' Choice Awards Best of the Best</h2>
+                <p class="awards__subtitle">Among our top 1% of places, stays, eats, and experiences—decided by you.</p>
+                <button class="awards__btn">See the winners</button>
+            </div>
+            <div class="awards__graphic">
+                <div class="awards__khaki-circle"></div>
+                <img src="images 1/big one.avif"
+                    class="awards__image" alt="Best of the Best">
+                <div class="awards__bisque-circle"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="footer__column">
+                <h3>About Tripadvisor</h3>
+                <ul>
+                    <li>
+                        <div class="link">About Us</div>
+                    </li>
+                    <li>
+                        <div class="link">Press</div>
+                    </li>
+                    <li>
+                        <div class="link">Careers</div>
+                    </li>
+                    <li>
+                        <div class="link">Trust & Safety</div>
+                    </li>
+                    <li>
+                        <div class="link">Contact us</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__column">
+                <h3>Explore</h3>
+                <ul>
+                    <li>
+                        <div class="link">Write a review</div>
+                    </li>
+                    <li>
+                        <div class="link">Add a Place</div>
+                    </li>
+                    <li>
+                        <div class="link">Travellers' Choice</div>
+                    </li>
+                    <li>
+                        <div class="link">Help Centre</div>
+                    </li>
+                    <li>
+                        <div class="link">Travel Stories</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__column">
+                <h3>Tripadvisor Sites</h3>
+                <ul>
+                    <li>
+                        <div class="link">Book tours and attraction tickets on Website.</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <div class="footer__bottom__left">
+                <div class="footer__bottom__left__row">
+                    <img src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                        class="footer__bottom__left__row__logo" alt="Tripadvisor Logo">
+                    <div class="footer__bottom__left__row__copyright">©️ 2026 Tripadvisor | LLC | All rights reserved.
+                    </div>
+                </div>
+                <div class="footer__bottom__left__row">
+                    <div class="link">Terms of Use</div>
+                    <div class="link">Privacy and Cookies Statement</div>
+                    <div class="link">Contact us</div>
+                </div>
+                <p class="footer__text">
+                     Happy to see all this dolor sit amet consectetur adipisicing elit. Cupiditate saepe numquam vero totam
+                    perferendis, natus maxime repudiandae! Suscipit sed deleniti, excepturi beatae ad, reiciendis
+                    possimus soluta aut ipsa sint odit!
+                </p>
+            </div>
+
+            <div class="footer__bottom__right">
+                <div class="selectors">
+                    <div class="selector">
+                        <i class="fa-solid fa-indian-rupee-sign"></i>
+                        <div>INR</div> <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                    <div class="selector">
+                        <div>India</div> <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                </div>
+                <div class="social__icons">
+                    <i class="fa-brands fa-facebook link"></i>
+                    <i class="fa-brands fa-x-twitter link"></i>
+                    <i class="fa-brands fa-pinterest link"></i>
+                    <i class="fa-brands fa-instagram link"></i>
+                    <i class="fa-brands fa-tiktok link"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
